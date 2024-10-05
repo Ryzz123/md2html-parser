@@ -1,0 +1,41 @@
+@import "https://cdn.jsdelivr.net/npm/normalize.css/normalize.min.css";
+@import "https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown-light.min.css";
+
+body {
+  background-color: #fff !important;
+}
+
+#mdimg-body {
+  min-height: 100vh;
+}
+
+.markdown-body {
+  padding: 2rem 1rem;
+}
+
+table {
+  color: #24292e;
+}
+
+.head-code {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f8fa;
+  padding: 0.5rem 0.8rem;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.head-code .lang {
+  font-size: 0.8rem;
+  color: #c9d1d9;
+}
+
+.head-code .copy-btn {
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: #c9d1d9;
+  font-size: 0.8rem;
+}
